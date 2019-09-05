@@ -33,8 +33,10 @@ MongoDB   mongodb://admin:$PASSWORD@ba257b06-aa41-4b69-9e92-7e76cd2f578c-0.bkr06
 CLI       mongo -u admin -p $PASSWORD --ssl --sslCAFile 359541d4-b7a6-11e9-950e-fefc37a38a5a --authenticationDatabase admin --host replset/ba257b06-aa41-4b69-9e92-7e76cd2f578c-0.bkr06mid0v493nkn6i3g.databases.appdomain.cloud:31742,ba257b06-aa41-4b69-9e92-7e76cd2f578c-1.bkr06mid0v493nkn6i3g.databases.appdomain.cloud:31742
 ```
 ```
-export HOSTNAME=ba257b06-aa41-4b69-9e92-7e76cd2f578c-0.bkr06mid0v493nkn6i3g.databases.appdomain.cloud
-export PORT=31742
+export HOSTNAME0=ba257b06-aa41-4b69-9e92-7e76cd2f578c-0.bkr06mid0v493nkn6i3g.databases.appdomain.cloud
+export PORT0=31742
+export HOSTNAME1=ba257b06-aa41-4b69-9e92-7e76cd2f578c-1.bkr06mid0v493nkn6i3g.databases.appdomain.cloud
+export PORT1=31742
 export DATABASE=ibmclouddb
 export AUTHSOURCE=admin
 ```
